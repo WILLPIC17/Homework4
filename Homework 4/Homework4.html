@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Webpage</title>
+    <link rel="stylesheet" href="Homework4.css">
+</head>
+<body>
+    <header>
+        <h1>My Responsive Webpage</h1>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <h2>Welcome</h2>
+            <p>This is an example of a responsive webpage.</p>
+        </section>
+        <section>
+            <h2>Image Section</h2>
+            <img srcset="responsive.jpg 600w, image-highres.jpg 1200w" sizes="(max-width: 600px) 100vw, (max-width: 1024px) 50vw, 33vw" src="image-highres.jpg" alt="Responsive Image">
+            <img srcset="circuit.jpg 600w, image-highres.jpg 1200w" sizes="(max-width: 600px) 100vw, (max-width: 1024px) 50vw, 33vw" src="image-highres.jpg" alt="Circuit Image">
+			<p>Accompanying paragraph for the image.</p>
+        </section>
+        <section>
+            <h2>Form Section</h2>
+            <form>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name">
+                <button type="submit">Submit</button>
+            </form>
+        </section>
+        <section>
+            <h2>Additional Section</h2>
+            <p>Any additional content may be added to this area.</p>
+        </section>
+    </main>
+    <footer>
+        <p>Homework 4 CSC-105</p>
+    </footer>
+</body>
+</html>
